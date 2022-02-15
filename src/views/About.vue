@@ -2,26 +2,11 @@
 </script>
 
 <template>
-  <div class="bg-gray-50">
-    <div
-      class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8"
-    >
-      <h2
-        class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-      >
-        About Page
-        <br />
-        <span class="text-indigo-600">Vite + Vue 3 + Tailwind CSS</span>
-      </h2>
-      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-        <div class="inline-flex rounded-md shadow">
-          <router-link
-            to="/"
-            class="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
-            >Back Home</router-link
-          >
-        </div>
-      </div>
+  <div class="relative py-12 bg-repeat bg-[length:240px] bg-mint-900 bg-hero-pattern overflow-x-hidden">
+    <div class="container relative z-10 mx-auto container-padding pt-36">
+      <h1 class="text-4xl font-bold md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-jet-700 font-heading">Hey there, I’m<br><span class="text-mint-500">Christopher.</span></h1>
+      <p class="max-w-sm mt-4 text-sm md:mt-8 lg:mt-12 text-mint-500 md:text-base md:max-w-md lg:max-w-xl lg:text-xl lg:leading-snug xl:max-w-2xl 2xl:max-w-3xl">I’m a frontend web developer in Oakland that loves building fun, practical things that help everyday people. I’m passionate about CSS, accessibility, and building a better, more inclusive&nbsp;web.</p>
     </div>
+    <img src="/img/portrait-illustration.png" alt="Portrait illustration of me, Christopher Kennedy" class="absolute bottom-0 z-0 h-full max-w-none -right-24 sm:right-0 opacity-60 sm:opacity-80 md:opacity-100">
   </div>
 </template>
