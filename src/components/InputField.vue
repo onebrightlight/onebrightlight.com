@@ -11,7 +11,6 @@
 </script>
 
 <template>
-  <Label v-bind="{ name: name, nameAttrib: nameAttrib }" />
-  <!-- TODO: Fix that right now the input returns a required value, irrespective of the prop being passed in. -->
-  <input class="footer-input" v-bind="{ name: nameAttrib, id: id, required: required, type: type, placeholder: placeholder }">
+  <Label :name="name" :nameAttrib="nameAttrib" />
+  <input class="footer-input" :name="nameAttrib" :id="id" :required="required" :type="type" :placeholder="placeholder">
 </template>

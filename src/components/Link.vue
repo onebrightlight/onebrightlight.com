@@ -10,5 +10,5 @@
 </script>
 
 <template>
-  <a v-bind="{ href: webUrl }" :class="['inline-block px-1 py-px -mx-1 -my-px font-bold rounded', colors]">{{ text }}</a>
+  <a :href="webUrl" :class="['inline-block px-1 py-px -mx-1 -my-px font-bold rounded', colors]">{{ text }}</a>
 </template>
