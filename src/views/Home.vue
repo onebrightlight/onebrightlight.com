@@ -1,5 +1,4 @@
 <script setup>
-  import Welcome from '@/components/Welcome.vue'
   import Link from '@/components/Link.vue'
   import HeroHeadAndTextVue from '@/components/hero-head-and-text/Wrapper.vue'
   import HeroHead from '@/components/hero-head-and-text/Head.vue'
