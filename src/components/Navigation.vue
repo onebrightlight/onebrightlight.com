@@ -9,13 +9,13 @@
             One Bright Light
           </router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link
             to="/about"
             class="uppercase transition duration-150 ease-in-out text-mint-500 hover:text-jet-700 focus:outline-none">
             About Me
           </router-link>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
